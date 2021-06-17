@@ -9,14 +9,14 @@ ex)
 ```
 4. 적당히 들여쓰자!<br />
 ex)
-```
+```html
 <ul>
   <li>메뉴1</li>
   <li>메뉴2</li>
 </ul>
 ```
 5. 속성과 함께 사용할 수 있다.
-```
+```html
 <태그 속성="속성 값" 속성="속성 값" ...>
 ```
 
@@ -59,7 +59,7 @@ ex)
 
 1. `<title>` : 문서 제목
 - 웹 브라우저의 제목 표시줄에 표시되는 제목
-```
+```html
 <title>문서 제목</tltle>
 ```
 
@@ -67,19 +67,19 @@ ex)
 > 웹 브라우저 화면에는 보이지 않지만 웹 문서와 관련된 정보들을 지정한다.
 
 1. 문자 세트 지정
-```
+```html
 <meta charset="UTF-8">
 ```
 2. 모바일 기기 고려
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 3. 인터넷 익스플로러 브라우저 고려
-```
+```html
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 ```
 4. 검색 엔진 고려
-```
+```html
 <meta name="keywords" content="html 기본"> // 해당 문서의 키워드
 <meta name="description" content="210617 공부한 것"> // 해당 문서의 설명
 <meta name="author" content="Yeonlisa"> // 해당 문서의 소유자 또는 제작자
